@@ -16,3 +16,8 @@ a {
     color: #5a3733;
     font-size: 110px;
 }
+
+.header__banner p {
+    color: #413939;
+    font-size: 18px;
+}
