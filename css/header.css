@@ -1,0 +1,18 @@
+a {
+    color: #5a3733;
+    font-size: 14px;
+}
+
+.header__top-nav-logo {
+    width: 200px;
+}
+
+.header__banner span {
+    color: #eb6d2f;
+    font-size: 14px;
+}
+
+.header__banner h1 {
+    color: #5a3733;
+    font-size: 110px;
+}
