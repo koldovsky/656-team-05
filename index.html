@@ -251,62 +251,59 @@
             <img width="300" src="img/honeycomb.jpeg" alt="honeycomb">
         </div>
 
-            <!-- Зауваження: три наступні теги огорнути в контейнер -->
-
-        <h4>FAQ</h4>
-        <h1>HONEY QESTIONS</h1>
-        <p class="faq__clients">Below are the most popular questions from our clients.</p>
+            <!-- СДЕЛАНО! Зауваження: три наступні теги огорнути в контейнер -->
+        <div class="text__over__accordion">
+            <h4 class="section__faq">FAQ</h4>
+            <h1 class="section__qestion">HONEY QESTIONS</h1>
+            <p class="text_faq__clients">Below are the most popular questions from our clients.</p>
+        </div>
 
         <!--Accordion-->
 
-            <!-- Зауваження: видалити зайві теги p -->
+            <!--СДЕЛАНО и переименовал классы! Зауваження: видалити зайві теги p -->
 
         <div id="accordion" class="accordion">
-            <p>
-            <div class="accordion__item__closed1">
-                <div class="accordion__item__header1">
+            <div class="accordion__item__1__container">
+                <div class="accordion__item__1__header">
                     What is raw honey?
                 </div>
-                <div class="accordion__item__content1">
+                <div class="accordion__item__1__content">
                     Raw honey is honey as it is in the beehive. Raw honey is made by extracting honey from the
                     honeycombs and separating it from impurities. It doesn't contain any hidden sugars and is not
                     pasteurized or processed.
                 </div>
             </div>
 
-            <p>
-            <div class="accordion__item__closed2">
-                <div class="accordion__item__header2">
+            <div class="accordion__item__2__container">
+                <div class="accordion__item__2__header">
                     Can your honey cause allergies?
                 </div>
-                <div class="accordion__item__content2">
+                <div class="accordion__item__2__content">
                     We sell pure organic honey but it can cause allergies, indeed. Typical symptoms are the same
                     as common pollen allergy symptoms: runny nose, sneezing, and swelling.
                 </div>
             </div>
 
-            <p>
-            <div class="accordion__item__closed3">
-                <div class="accordion__item__header3">
+            <div class="accordion__item__3__container">
+                <div class="accordion__item__3__header">
                     What payment options do you provide?
                 </div>
-                <div class="accordion__item__content3">
+                <div class="accordion__item__3__content">
                     We accept Visa and MasterCard cards issued by any American bank. You can also use
                     PayPal.
                 </div>
             </div>
 
-            <p>
-            <div class="accordion__item__closed4">
-                <div class="accordion__item__header4">
+            <div class="accordion__item__4__container">
+                <div class="accordion__item__4__header">
                     Why does the assortment change sometimes?
                 </div>
-                <div class="accordion__item__content4">
-                    We bottle honey 3-4 times per year, according to the harvest seasons. Our
-                    capabilities are limited to around 3000 jars a year. Therefore, depending on the
-                    season, there may be different honey in our assortment, and some products may be
-                    temporarily unavailable.
-                </div>
+                        <div class="accordion__item__4__content">
+                            We bottle honey 3-4 times per year, according to the harvest seasons. Our
+                            capabilities are limited to around 3000 jars a year. Therefore, depending on the
+                            season, there may be different honey in our assortment, and some products may be
+                            temporarily unavailable.
+                        </div>
             </div>
 
         </div>
@@ -317,19 +314,32 @@
 
     <footer>
 
-            <!-- Зауваження: параграфи і заголвки огорнути в контейнери -->
+            <!-- СДЕЛАНО! и добавил карту. Зауваження: параграфи і заголвки огорнути в контейнери -->
 
         <section class="contacts-info">
-            <p class="overheader">CONTACTS</p>
-            <h2 class="contacts">CONTACT US ANYTIME</h2>
-            <p class="subheader">Feel free to contact us for any inquiries or commercial offers:</p>
-            <h4 class="address">Address</h4>
-            <p class="address">44670 Mattole Rd, Honeydew, CA 95545</p>
-            <h4 class="hours">Hours</h4>
-            <p class="hours">Monday - Saturday: 11 AM - 9 PM Sunday: 11 AM - 7 PM</p>
-            <h4 class="contacts">Contacts</h4>
-            <p class="contacts">+1 (234) 567 89 00 honeybee@email.com</p>
+            <div class="contacts__header">
+                <p class="contacts__overheader__small">CONTACTS</p>
+                <h2 class="contacts__header__big">CONTACT US ANYTIME</h2>
+                <p class="subheader__text">Feel free to contact us for any inquiries or commercial offers:</p>
+            </div>
+            <div class="contacts__address">
+                <h4 class="contacts__address__overheader">Address</h4>
+                <p class="contacts__address__text">44670 Mattole Rd, Honeydew, CA 95545</p>
+            </div>
+            <div class="contacts__hours">
+                <h4 class="contacts__hours__overheader">Hours</h4>
+                <p class="contacts__hours__text">Monday - Saturday: 11 AM - 9 PM Sunday: 11 AM - 7 PM</p>
+            </div>
+            <div class="contacts__phone">
+                <h4 class="contacts__phone__overheader">Contacts</h4>
+                <p class="contacts__phone__text">+1 (234) 567 89 00 honeybee@email.com</p>
+            </div>
         </section>
+
+        <div class="maps">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3045.4495234058013!2d-124.12589238460932!3d40.243540079385554!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x54d458d72677b56f%3A0xe767b86240e24bf4!2zNDQ2NzAgTWF0dG9sZSBSZCwgSG9uZXlkZXcsIENBIDk1NTQ1LCDQodC_0L7Qu9GD0YfQtdC90ZYg0KjRgtCw0YLQuCDQkNC80LXRgNC40LrQuA!5e0!3m2!1suk!2sua!4v1638788441223!5m2!1suk!2sua" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy">
+            </iframe>
+        </div>
 
         <div class="contact-form">
             <form action="contact-form">
