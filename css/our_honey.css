@@ -1,4 +1,30 @@
 .our_honey_section{
-    padding-top: 40px;
-    padding-bottom: 55px;
+    text-align: center;
     background-color: #f9f3ee;
+}
+.our_honey_header{
+    text-align: center;
+}
+.our_honey_header_small{
+    text-align: center;
+     color: #eb6d2f;
+}
+.our_honey_header_big{
+    text-align: center;
+    color: #663b36;
+}
+.our_honey_header_content{
+    text-align: center;
+    color: #413939
+}
+.our_honey-show__name{
+        color: #929393;
+    }
+.our_honey-show__price{
+        color: #ffd832;
+    }
+.our_honey-button{
+        color: #ffffff;
+        background-color: #eb6d2f;
+        border-radius: 5px;
+    }
