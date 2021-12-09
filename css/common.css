@@ -18,6 +18,21 @@
     --white: #ffffff;
     --oslo-gray: #929393;
     --sunglow: #ffd832;
+
+    /* Simplified Names */
+    
+    /*
+    --main-text: #413939;
+    --brown: #5a3733;
+    --light-brown: #836763;
+    --second-brown: #663b36;
+    --background: #f9f3ee;
+    --silver: #d1c5c1;
+    --white: #ffffff;
+    --gray: #929393;
+    --yellow: #ffd832;
+    --orange: #eb6d2f;
+    */
 }
 
 img {
