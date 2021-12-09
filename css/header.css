@@ -9,7 +9,7 @@ header {
 }
 
 header a {
-    color: var(--brown)
+    color: var(--brown);
     font-size: 14px;
 }
 
