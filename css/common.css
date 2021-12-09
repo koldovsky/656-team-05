@@ -8,6 +8,7 @@
 :root {
     font-family: Signika Negative, sans-serif;
 
+    /*
     --tango: #eb6d2f;
     --masala: #413939;
     --congo-brown: #5a3733;
@@ -18,10 +19,9 @@
     --white: #ffffff;
     --oslo-gray: #929393;
     --sunglow: #ffd832;
+    */
 
     /* Simplified Names */
-    
-    /*
     --main-text: #413939;
     --brown: #5a3733;
     --light-brown: #836763;
@@ -32,7 +32,6 @@
     --gray: #929393;
     --yellow: #ffd832;
     --orange: #eb6d2f;
-    */
 }
 
 img {
