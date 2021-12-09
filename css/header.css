@@ -1,14 +1,12 @@
-/*
-header {
+.header__nav {
     display: flex;
 }
-*/
 
-.header__top-nav-logo {
+.header__nav-logo {
     width: 200px;
 }
 
-header a {
+.header__top-nav-menu a {
     color: var(--brown);
     font-size: 14px;
 }
