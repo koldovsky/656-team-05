@@ -2,11 +2,15 @@
     display: flex;
 }
 
-.header__nav-logo {
+.header__nav-logo img {
     width: 200px;
 }
 
-.header__top-nav-menu a {
+.header__nav-menu {
+    justify-content: flex-end;
+}
+
+.header__nav-menu a {
     color: var(--brown);
     font-size: 14px;
 }
