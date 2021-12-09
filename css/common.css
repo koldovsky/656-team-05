@@ -32,6 +32,11 @@
     --gray: #929393;
     --yellow: #ffd832;
     --orange: #eb6d2f;
+    --black: #000000;
+}
+
+html {
+    background-color: var(--background);
 }
 
 img {
@@ -40,5 +45,5 @@ img {
 
 a {
     text-decoration: none;
-    color: black;
+    color: var(--black);
 }

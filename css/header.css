@@ -9,17 +9,17 @@ header {
 }
 
 header a {
-    color: #5a3733;
+    color: var()
     font-size: 14px;
 }
 
 .header__banner span {
-    color: #eb6d2f;
+    color: var(--orange);
     font-size: 14px;
 }
 
 .header__banner h1 {
-    color: #5a3733;
+    color: var(--brown);
     font-size: 110px;
 }
 
