@@ -1,5 +1,15 @@
-.types-of-honey-section{
-    padding: 10;
-    margin: 0;    
-
+.types_of_honey_section{
+    background-color: #f9f3ee;
 }
+    .types_of_honey{
+        text-align: left;
+        color: #eb6d2f;
+        font-family:
+    }
+    .subtypes_of_honey{
+        text-align: left;
+        color:#5a3733;  
+    }
+    .tab_content{
+    
+    }    
