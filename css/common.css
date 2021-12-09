@@ -7,6 +7,17 @@
 
 :root {
     font-family: Signika Negative, sans-serif;
+
+    --tango: #eb6d2f;
+    --masala: #413939;
+    --congo-brown: #5a3733;
+    --buccaneer: #663b36;
+    --sand-dune: #836763;
+    --silver-rust: #d1c5c1;
+    --fantasy: #f9f3ee;
+    --white: #ffffff;
+    --oslo-gray: #929393;
+    --sunglow: #ffd832;
 }
 
 img {
