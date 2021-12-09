@@ -9,7 +9,7 @@ header {
 }
 
 header a {
-    color: var()
+    color: var(--brown)
     font-size: 14px;
 }
 
@@ -24,6 +24,6 @@ header a {
 }
 
 .header__banner p {
-    color: #413939;
+    color: var(--main-text);
     font-size: 18px;
 }
