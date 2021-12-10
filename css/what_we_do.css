@@ -123,3 +123,8 @@
 .what_we_do_anchor_text{
     color: #ffd832;
 }
+
+.what_we_do_anchor_text:hover{
+    cursor: pointer;
+    text-decoration: underline;
+}
