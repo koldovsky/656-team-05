@@ -7,21 +7,7 @@
 
 :root {
     font-family: Signika Negative, sans-serif;
-
-    /*
-    --tango: #eb6d2f;
-    --masala: #413939;
-    --congo-brown: #5a3733;
-    --buccaneer: #663b36;
-    --sand-dune: #836763;
-    --silver-rust: #d1c5c1;
-    --fantasy: #f9f3ee;
-    --white: #ffffff;
-    --oslo-gray: #929393;
-    --sunglow: #ffd832;
-    */
-
-    /* Simplified Names */
+    
     --main-text: #413939;
     --brown: #5a3733;
     --light-brown: #836763;
@@ -30,7 +16,7 @@
     --silver: #d1c5c1;
     --white: #ffffff;
     --gray: #929393;
-    --yellow: #f7bd00;
+    --yellow: #f7d832;
     --orange: #eb6d2f;
     --black: #000000;
 }
