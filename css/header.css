@@ -1,19 +1,22 @@
 .header__nav {
     display: flex;
-    width: 100%;
+    width: 100vw;
 }
 
 .header__nav-logo img {
+    margin: 20px 25px;
     width: 200px;
 }
 
 .header__nav-menu {
     justify-content: flex-end;
+    
 }
 
 .header__nav-menu a {
     color: var(--brown);
     font-size: 14px;
+    padding: 10px;
 }
 
 .header__banner {
