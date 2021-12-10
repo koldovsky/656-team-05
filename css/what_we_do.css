@@ -1,6 +1,10 @@
 /* Marta */
 /* Кольори вказати чер змінну color: var(--color); */
 .what_we_do_section {
+    background-image: url(../img/background-img.webp);
+    background-position: center;
+    background-size: contain;
+    min-height: 400px;
     padding-top: 40px;
     padding-bottom: 55px;
     background-color: #faf4f0;
