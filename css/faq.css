@@ -8,6 +8,13 @@
     grid-gap: 10px;
 }
 
+.logo__faq{
+    object-fit: cover;
+    object-position: 51.754% 57.685%;
+    position:  relative;
+
+}
+
 .section__faq{
     color:#eb6d2f;
     }
