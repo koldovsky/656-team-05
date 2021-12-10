@@ -16,11 +16,14 @@
     font-size: 14px;
 }
 
-.header__banner span {
+.header__banner {
     background-image: url(../img/header-banner.jpeg);
     background-size: cover;
-    background-repeat: no-repeat;
     background-position: center;
+    height: 100vh;
+}
+
+.header__banner span {
     color: var(--orange);
     font-size: 14px;
 }
