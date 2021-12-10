@@ -18,6 +18,9 @@
 
 .header__banner span {
     background-image: url(../img/header-banner.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
     color: var(--orange);
     font-size: 14px;
 }
