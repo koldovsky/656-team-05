@@ -17,6 +17,7 @@
 }
 
 .header__banner span {
+    background-image: url(../img/header-banner.jpeg);
     color: var(--orange);
     font-size: 14px;
 }
