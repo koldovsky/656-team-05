@@ -27,6 +27,7 @@
 }
 
 .header__banner p {
+    font-family: Open Sans, sans-serif;
     color: var(--main-text);
     font-size: 18px;
 }
