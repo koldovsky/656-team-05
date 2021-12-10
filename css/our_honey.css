@@ -52,9 +52,31 @@
 }
 .our_honey-show__price {
     color: #ffd832;
+    font-weight: 700;
+    white-space: nowrap;
+    margin-top: 16px;
+    word-wrap: break-word;
+    font-size: 21px;
+    font-stretch: 100%;
+    line-height: 29.4px;
+    margin-top: 16px;
 }
 .our_honey-button {
     color: #ffffff;
     background-color: #eb6d2f;
-    border-radius: 5px;
+    border-radius: 10px;
+    font-size: 15px;
+    font-stretch: 100%;
+    font-weight: 500;
+    height: 43.95px;
+    letter-spacing: 0.45px;
+    line-height: 40px;
+    max-width: 100%;
+    overflow-wrap: break-word;
+    text-align: center;
+    vertical-align: baseline;
+    display: block;
+    font-family: Open Sans, sans-serif;
+    margin-top: 16px;
+    width: 107.383px;
 }
