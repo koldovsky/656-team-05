@@ -67,6 +67,7 @@
     margin-top: 45px;
 }
 .what_we_do_content-card{
+    background-color: #ffffff;
     padding: 15px;
     display: flex;
     justify-content: flex-start;
@@ -74,7 +75,7 @@
     display: block;
 }
 .what_we_do_content_inner{
-    background-color: var(#ffffff);
+    background-color: #ffffff;
     -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
     padding-left: 25px;
     padding-right: 25px;
