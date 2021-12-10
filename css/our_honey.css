@@ -1,24 +1,54 @@
-/* Розставити пробіли перед перед усіма відкриваючими фігурними дужками. Піключити кольори через змінні - color: var(--color);. Закрити атрибут у рядку 12. Забрати зайві таби в рядках 21, 22, 23. */
-.our_honey_header_small{
+/* Olena */
+
+.our_honey_header {
     text-align: center;
-     color: #eb6d2f;
 }
-.our_honey_header_big{
+.our_honey_header_small {
+    text-align: center;
+    color: #eb6d2f;
+    height: 50px;
+    font-size: 14px;
+    font-stretch: 100%;
+    font-weight: 700;
+    letter-spacing: 1.4px;
+    line-height: 14px;
+    overflow-wrap: break-word;
+    vertical-align: baseline;
+    margin: 0px;
+    font-family: Open Sans, sans-serif;
+}
+.our_honey_header_big {
     text-align: center;
     color: #663b36;
+    height: 50px;
+    padding: 20px;
+    font-size: 38px;
+    font-stretch: 100%;
+    font-weight: 700;
+    line-height: 47.5px;
 }
-.our_honey_header_content{
+.our_honey_header_line {
+    color: #eb6d2f;
+    height: 2px;
+    width: 65px;
+    margin-right: center;
+    margin-left: 48%;
+    background-color: #eb6d2f;
+}
+.our_honey_header_content {
     text-align: center;
-    color: #413939
+    color: #413939;
+    width: 100%;
+    padding: 20px;
 }
-.our_honey-show__name{
-        color: #929393;
-    }
-.our_honey-show__price{
-        color: #ffd832;
-    }
-.our_honey-button{
-        color: #ffffff;
-        background-color: #eb6d2f;
-        border-radius: 5px;
-    }
+.our_honey-show__name {
+    color: #929393;
+}
+.our_honey-show__price {
+    color: #ffd832;
+}
+.our_honey-button {
+    color: #ffffff;
+    background-color: #eb6d2f;
+    border-radius: 5px;
+}
