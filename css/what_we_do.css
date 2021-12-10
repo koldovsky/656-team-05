@@ -3,6 +3,10 @@
     padding-bottom: 55px;
     background-color: #faf4f0;
 }
+.what_we_do_header_inner_grid{
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+}
 .what_we_do_header_inner{
     margin-top: 50px;
     padding-left: 15px;
@@ -14,7 +18,7 @@
     margin-right: -15;
 }
 .what_we_do_header-subheader{
-    color: rgb(235, 109, 47);
+    color: #eb6d2f;
     font-size: 14px;
     font-stretch: 100%;
     font-weight: 700;
@@ -24,7 +28,7 @@
     text-align: center;
 }
 .what_we_do_header-main{
-    color: rgb(90, 55, 51);
+    color: var(#5a3733);
     font-size: 38px;
     font-stretch: 100%;
     font-weight: 700;
@@ -33,7 +37,7 @@
     line-height: 47.5px;
 }
 .what_we_do_header-text{
-    color: rgb(65, 57, 57);
+    color: #413939;
     font-size: 18px;
     font-stretch: 100%;
     font-weight: 400;
@@ -52,7 +56,7 @@
 .what_we_do_header_line{
     height:4px;
     width:10%;
-    background-color:#eb6d2f;
+    background-color:var(#eb6d2f);
     border-color: rgb(90, 55, 51);
     border-bottom-width: 0px;
     border-top-width: 0px;
@@ -70,7 +74,7 @@
     display: block;
 }
 .what_we_do_content_inner{
-    background-color: rgb(255, 255, 255);
+    background-color: #ffffff;
     -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
     padding-left: 25px;
     padding-right: 25px;
@@ -91,7 +95,7 @@
     vertical-align: baseline;
 }
 .what_we_do_card-name{
-    color: rgb(90, 55, 51);
+    color: var(--brown);
     font-size: 23px;
     font-stretch: 100%;
     font-weight: 700;
@@ -102,7 +106,7 @@
 }
 .what_we_do_card-text{
     margin-top: 15px;
-    color: rgb(65, 57, 57);
+    color: var(--main-text);
     font-size: 16px;
     font-stretch: 100%;
     font-weight: 400;
@@ -121,5 +125,10 @@
     vertical-align: baseline;
 }
 .what_we_do_anchor_text{
-    color: rgb(255, 216, 50);
+    color: #ffd832;
+}
+
+.what_we_do_anchor_text:hover{
+    cursor: pointer;
+    text-decoration: underline;
 }
