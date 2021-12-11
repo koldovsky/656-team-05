@@ -2,13 +2,82 @@
 .types_of_honey_section {
     background-color: #f9f3ee;
 }
-
     .types_of_honey {
+        color: rgb(235, 109, 47);
+        font-size: 14px;
+        font-stretch: 100%;
+        font-weight: 700;
+        letter-spacing: 1.4px;
+        line-height: 14px;
+        margin: 0px;
         text-align: left;
-        color: #eb6d2f;
     }
 
-    .subtypes_of_honey {
+    h2 {
+        color: rgb(90, 55, 51);
+        font-size: 38px;
+        font-stretch: 100%;
+        font-weight: 700;
+        letter-spacing: normal;
+        line-height: 47.5px;
+        margin: 0px;
+        text-align: left;  
+    }
+
+    p {
+        color: rgb(90, 55, 51);
+        font-size: 16px;
+        font-stretch: 100%;
+        font-weight: 400;
+        letter-spacing: normal;
+        line-height: 47.5px;
+        margin: 0px;
         text-align: left;
-        color:#5a3733;  
+    }
+
+    .honey-show__card {
+        color: rgb(90, 55, 51);
+        font-size: 16px;
+        font-stretch: 100%;
+        font-weight: 400;
+        letter-spacing: normal;
+        line-height: 27.2px;
+        margin: 0px;
+        text-align: center;
+        vertical-align: baseline
+    }
+
+    .honey-show__card {
+        color: rgb(90, 55, 51);
+        font-size: 16px;
+        font-stretch: 100%;
+        font-weight: 400;
+        letter-spacing: normal;
+        line-height: 27.2px;
+        margin: 0px;
+        text-align: center;
+        vertical-align: baseline
+    }
+
+    .honey-show__card {
+        color: rgb(90, 55, 51);
+        font-size: 16px;
+        font-stretch: 100%;
+        font-weight: 400;
+        letter-spacing: normal;
+        line-height: 27.2px;
+        margin: 0px;
+        text-align: center;
+        vertical-align: baseline
+    }
+
+    .honey-show__card {
+        color: rgb(90, 55, 51);
+        font-size: 16px;
+        font-stretch: 100%;
+        font-weight: 400;
+        letter-spacing: normal;
+        line-height: 27.2px;
+        margin: 0px;
+        text-align: center;vertical-align: baseline
     }
