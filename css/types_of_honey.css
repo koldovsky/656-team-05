@@ -36,6 +36,8 @@
     }
 
     .honey-show__card {
+        background-image: url(../img/clover_honey.svg);
+        background-size: cover;
         color: rgb(90, 55, 51);
         font-size: 16px;
         font-stretch: 100%;
@@ -48,6 +50,8 @@
     }
 
     .honey-show__card {
+        background-image: url(../img/buckweat_honey.svg);
+        background-size: cover;
         color: rgb(90, 55, 51);
         font-size: 16px;
         font-stretch: 100%;
@@ -60,6 +64,8 @@
     }
 
     .honey-show__card {
+        background-image: url(../img/wildflower_honey.svg);
+        background-size: cover;
         color: rgb(90, 55, 51);
         font-size: 16px;
         font-stretch: 100%;
@@ -72,6 +78,8 @@
     }
 
     .honey-show__card {
+        background-image: url(../img/citrus_blossom.svg);
+        background-size: cover;
         color: rgb(90, 55, 51);
         font-size: 16px;
         font-stretch: 100%;
@@ -79,5 +87,6 @@
         letter-spacing: normal;
         line-height: 27.2px;
         margin: 0px;
-        text-align: center;vertical-align: baseline
+        text-align: center;
+        vertical-align: baseline
     }
