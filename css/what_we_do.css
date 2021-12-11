@@ -59,10 +59,10 @@
     vertical-align: baseline;
 }
 .what_we_do_header_line {
+    color: var(--orange);
     height: 4px;
     width: 10%;
     background-color: var(--orange);
-    color: var(--orange);
     border-color: var(--brown);
     border-bottom-width: 0px;
     border-top-width: 0px;
