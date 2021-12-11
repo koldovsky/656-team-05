@@ -3,7 +3,7 @@
     background-color: #f9f3ee;
 }
     .types_of_honey {
-        color: rgb(235, 109, 47);
+        color: var(--orange);
         font-size: 14px;
         font-stretch: 100%;
         font-weight: 700;
@@ -14,7 +14,7 @@
     }
 
     h2 {
-        color: rgb(90, 55, 51);
+        color: var(--brown);
         font-size: 38px;
         font-stretch: 100%;
         font-weight: 700;
@@ -25,7 +25,7 @@
     }
 
     p {
-        color: rgb(90, 55, 51);
+        color: var(--brown);
         font-size: 16px;
         font-stretch: 100%;
         font-weight: 400;
@@ -38,7 +38,7 @@
     .honey-show__card {
         background-image: url(../img/clover_honey.svg);
         background-size: cover;
-        color: rgb(90, 55, 51);
+        color: var(--brown);
         font-size: 16px;
         font-stretch: 100%;
         font-weight: 400;
@@ -52,7 +52,7 @@
     .honey-show__card {
         background-image: url(../img/buckweat_honey.svg);
         background-size: cover;
-        color: rgb(90, 55, 51);
+        color: var(--brown);
         font-size: 16px;
         font-stretch: 100%;
         font-weight: 400;
@@ -66,7 +66,7 @@
     .honey-show__card {
         background-image: url(../img/wildflower_honey.svg);
         background-size: cover;
-        color: rgb(90, 55, 51);
+        color: var(--brown);
         font-size: 16px;
         font-stretch: 100%;
         font-weight: 400;
@@ -80,7 +80,7 @@
     .honey-show__card {
         background-image: url(../img/citrus_blossom.svg);
         background-size: cover;
-        color: rgb(90, 55, 51);
+        color: var(--brown);
         font-size: 16px;
         font-stretch: 100%;
         font-weight: 400;
