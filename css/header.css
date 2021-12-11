@@ -1,7 +1,12 @@
-/* Ivan Skyshliak */
+/* Ivan */
+
+.header {
+    min-height: 100vh;
+}
 
 .header__nav-container {
     width: 100vw;
+    margin: 0 auto;
 }
 
 .header__nav {
@@ -18,7 +23,6 @@
 .header__nav-menu {
     justify-content: center;
     align-items: center;
-
 }
 
 .header__nav-menu a {
@@ -58,7 +62,7 @@
 
 .header__banner p {
     font-family: Open Sans, sans-serif;
-    color: var(--main-text);
+    color: var(--main-text-color);
     font-size: 18px;
 }
 
