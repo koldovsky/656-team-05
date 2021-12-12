@@ -37,6 +37,10 @@ p {
     text-align: left;
 }
 
+.tab-content{
+    display: flex;
+}
+
 .honey-show__card {
     background-image: url(../img/clover_honey.svg);
     background-size: cover;
