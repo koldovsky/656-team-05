@@ -2,6 +2,7 @@
 
 .types-of-honey {
     background-color: #f9f3ee;
+    display: flex;
 }
 
 span {
@@ -37,9 +38,13 @@ p {
     text-align: left;
 }
 
+.tab-content{
+    display: flex; 
+}
+
 .honey-show__card {
-    background-image: url(../img/clover_honey.svg);
     background-size: cover;
+    background-color: white;
     color: var(--brown);
     font-size: 16px;
     font-stretch: 100%;
@@ -52,8 +57,8 @@ p {
 }
 
 .honey-show__card {
-    background-image: url(../img/buckweat_honey.svg);
     background-size: cover;
+    background-color: white;
     color: var(--brown);
     font-size: 16px;
     font-stretch: 100%;
@@ -66,8 +71,8 @@ p {
 }
 
 .honey-show__card {
-    background-image: url(../img/wildflower_honey.svg);
     background-size: cover;
+    background-color: white;
     color: var(--brown);
     font-size: 16px;
     font-stretch: 100%;
@@ -80,8 +85,8 @@ p {
 }
 
 .honey-show__card {
-    background-image: url(../img/citrus_blossom.svg);
     background-size: cover;
+    background-color: white;
     color: var(--brown);
     font-size: 16px;
     font-stretch: 100%;
