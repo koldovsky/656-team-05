@@ -80,3 +80,6 @@
     margin-top: 16px;
     width: 107.383px;
 }
+#box-container {
+    display: flex;
+}
