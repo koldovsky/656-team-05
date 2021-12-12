@@ -3,91 +3,92 @@
 .types-of-honey {
     background-color: #f9f3ee;
 }
-    span {
-        color: var(--orange);
-        font-size: 14px;
-        font-stretch: 100%;
-        font-weight: 700;
-        letter-spacing: 1.4px;
-        line-height: 14px;
-        margin: 0px;
-        text-align: left;
-    }
 
-    h2 {
-        color: var(--brown);
-        font-size: 38px;
-        font-stretch: 100%;
-        font-weight: 700;
-        letter-spacing: normal;
-        line-height: 47.5px;
-        margin: 0px;
-        text-align: left;  
-    }
+span {
+    color: var(--orange);
+    font-size: 14px;
+    font-stretch: 100%;
+    font-weight: 700;
+    letter-spacing: 1.4px;
+    line-height: 14px;
+    margin: 0px;
+    text-align: left;
+}
 
-    p {
-        color: var(--brown);
-        font-size: 16px;
-        font-stretch: 100%;
-        font-weight: 400;
-        letter-spacing: normal;
-        line-height: 47.5px;
-        margin: 0px;
-        text-align: left;
-    }
+h2 {
+    color: var(--brown);
+    font-size: 38px;
+    font-stretch: 100%;
+    font-weight: 700;
+    letter-spacing: normal;
+    line-height: 47.5px;
+    margin: 0px;
+    text-align: left;
+}
 
-    .honey-show__card {
-        background-image: url(../img/clover_honey.svg);
-        background-size: cover;
-        color: var(--brown);
-        font-size: 16px;
-        font-stretch: 100%;
-        font-weight: 400;
-        letter-spacing: normal;
-        line-height: 27.2px;
-        margin: 0px;
-        text-align: center;
-        vertical-align: baseline;
-    }
+p {
+    color: var(--brown);
+    font-size: 16px;
+    font-stretch: 100%;
+    font-weight: 400;
+    letter-spacing: normal;
+    line-height: 47.5px;
+    margin: 0px;
+    text-align: left;
+}
 
-    .honey-show__card {
-        background-image: url(../img/buckweat_honey.svg);
-        background-size: cover;
-        color: var(--brown);
-        font-size: 16px;
-        font-stretch: 100%;
-        font-weight: 400;
-        letter-spacing: normal;
-        line-height: 27.2px;
-        margin: 0px;
-        text-align: center;
-        vertical-align: baseline;
-    }
+.honey-show__card {
+    background-image: url(../img/clover_honey.svg);
+    background-size: cover;
+    color: var(--brown);
+    font-size: 16px;
+    font-stretch: 100%;
+    font-weight: 400;
+    letter-spacing: normal;
+    line-height: 27.2px;
+    margin: 0px;
+    text-align: center;
+    vertical-align: baseline;
+}
 
-    .honey-show__card {
-        background-image: url(../img/wildflower_honey.svg);
-        background-size: cover;
-        color: var(--brown);
-        font-size: 16px;
-        font-stretch: 100%;
-        font-weight: 400;
-        letter-spacing: normal;
-        line-height: 27.2px;
-        margin: 0px;
-        text-align: center;
-        vertical-align: baseline;
-    }
+.honey-show__card {
+    background-image: url(../img/buckweat_honey.svg);
+    background-size: cover;
+    color: var(--brown);
+    font-size: 16px;
+    font-stretch: 100%;
+    font-weight: 400;
+    letter-spacing: normal;
+    line-height: 27.2px;
+    margin: 0px;
+    text-align: center;
+    vertical-align: baseline;
+}
 
-    .honey-show__card {
-        background-image: url(../img/citrus_blossom.svg);
-        background-size: cover;
-        color: var(--brown);
-        font-size: 16px;
-        font-stretch: 100%;
-        font-weight: 400;
-        letter-spacing: normal;
-        line-height: 27.2px;
-        margin: 0px;
-        text-align: center;
-        vertical-align: baseline;
-    }
+.honey-show__card {
+    background-image: url(../img/wildflower_honey.svg);
+    background-size: cover;
+    color: var(--brown);
+    font-size: 16px;
+    font-stretch: 100%;
+    font-weight: 400;
+    letter-spacing: normal;
+    line-height: 27.2px;
+    margin: 0px;
+    text-align: center;
+    vertical-align: baseline;
+}
+
+.honey-show__card {
+    background-image: url(../img/citrus_blossom.svg);
+    background-size: cover;
+    color: var(--brown);
+    font-size: 16px;
+    font-stretch: 100%;
+    font-weight: 400;
+    letter-spacing: normal;
+    line-height: 27.2px;
+    margin: 0px;
+    text-align: center;
+    vertical-align: baseline;
+}
