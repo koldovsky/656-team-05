@@ -1,6 +1,7 @@
 /* Marta */
 
 .what_we_do_section {
+    width: 100%;
     background-image: url(../img/background-what-we-do-img.webp);
     background-position: center;
     background-size: cover;
@@ -70,9 +71,11 @@
     border-right-width: 0px;
 }
 .what_we_do_content {
+    width: 100%;
     margin-top: 45px;
 }
 .what_we_do_content-card {
+    width: 100%;
     padding: 15px;
     display: flex;
     justify-content: flex-start;
@@ -94,6 +97,7 @@
     font-weight: 400;
 }
 .what_we_do_icon_wrapper {
+    width: 100%;
     display: flex;
     justify-content: center;
     text-align: center;
