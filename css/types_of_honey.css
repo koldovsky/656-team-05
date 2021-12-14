@@ -16,6 +16,18 @@ span {
     text-align: left;
 }
 
+.subtypes_of_honey_header_line {
+    color: var(--orange);
+    height: 4px;
+    width: 10%;
+    background-color: var(--orange);
+    border-color: var(--brown);
+    border-bottom-width: 0px;
+    border-top-width: 0px;
+    border-left-width: 0px;
+    border-right-width: 0px;
+}
+
 h2 {
     color: var(--brown);
     font-size: 38px;
@@ -43,24 +55,21 @@ p {
 }
 
 .honey-show__card {
-    background-size: cover;
-    background-color: white;
-    color: var(--brown);
+    margin-top: 26px;
     font-size: 16px;
-    font-stretch: 100%;
+    justify-content: center;
     font-weight: 400;
-    letter-spacing: normal;
     line-height: 27.2px;
-    margin: 0px;
     text-align: center;
     vertical-align: baseline;
+    justify-self: end;
 }
 
 .honey-show__card {
     background-size: cover;
     background-color: white;
     color: var(--brown);
-    font-size: 16px;
+    font-size: 8px;
     font-stretch: 100%;
     font-weight: 400;
     letter-spacing: normal;
