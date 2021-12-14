@@ -1,46 +1,84 @@
 /* Artem */
 /* Розставити пробіли перед перед усіма відкриваючими фігурними дужками. Рядок 22 - зайвий таб. Кольори вказати чер змінну color: var(--color); */
-.faq{
-    padding-top: 55px;
+.faq {
+    padding: 55px;
     padding-bottom: 55px;
-    background-color: #faf4f0;
-    display: grid;
+    color: var(--background-color);
+    display: flex;
+    min-width: 320px;
+
+   /* display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 100px 100px;
-    grid-gap: 10px;
+    grid-gap: 10px; */
 }
 
-.logo__faq{
+.logo__faq {
     object-fit: cover;
-    object-position: 51.754% 57.685%;
+    object-position: 50% 50%;
     position:  relative;
-
+    border-radius: inherit;
+    padding: 0px: 15px;
+    width: 100%;
 }
 
-.section__faq{
-    color:#eb6d2f;
-    }
-
-.section__qestion{
-    color: #5a3733;
+.faq__text__full {
+    padding: 0px: 15px;
+}
+.section__faq {
+    color: var(--orange);
 }
 
-.accordion__item__1__header{
-    color: #5a3733; 
+.section__qestion {
+    color: var(--brown);
+}
+
+.text_faq__clients {
+    font-family: Open Sans;
+    color: var(--main-text-color);
+    font-size: 16px;
+}
+
+.accordion__item__1__header {
+    color: var(--brown); 
     font-weight:  bold;
 }
 
-.accordion__item__2__header{
-    color: #5a3733; 
+.accordion__item__1__content {
+    font-family: Open Sans;
+    color: var(--main-text-color);
+    font-size: 16px;
+}
+
+.accordion__item__2__header {
+    color: var(--brown); 
     font-weight:  bold;
 }
 
-.accordion__item__3__header{
-    color: #5a3733; 
+.accordion__item__2__content {
+    font-family: Open Sans;
+    color: var(--main-text-color);
+    font-size: 16px;
+}
+
+.accordion__item__3__header {
+    color: var(--brown); 
     font-weight:  bold;
 }
 
-.accordion__item__4__header{
-    color: #5a3733; 
+.accordion__item__3__content {
+    font-family: Open Sans;
+    color: var(--main-text-color);
+    font-size: 16px;
+}
+
+.accordion__item__4__header {
+    color: var(--brown);
     font-weight:  bold;
+}
+
+.accordion__item__4__content {
+    font-family: Open Sans;
+    color: var(--main-text-color);
+    font-size: 16px;
 }
