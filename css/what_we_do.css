@@ -1,5 +1,27 @@
 /* Marta */
-
+@media (min-width: 400px) {
+    .what_we_do_content {
+        display: flex;
+    }
+}
+@media (min-width: 400px) {
+    .what_we_do_section {
+        display: flex;
+        background-position: center;
+    }
+}
+@media (min-width: 400px) {
+    .what_we_do_content_inner {
+        flex-direction: column;
+        min-height: 360px;
+    }
+}
+@media (min-width: 400px) {
+    .what_we_do_content-card {
+        flex-direction: column;
+        min-height: 360px;
+    }
+}
 .what_we_do_section {
     width: 100%;
     background-image: url(../img/background-what-we-do-img.webp);
@@ -132,6 +154,7 @@
     line-height: 27.2px;
     text-align: center;
     vertical-align: baseline;
+    justify-self: end;
 }
 .what_we_do_anchor_text {
     color: var(--yellow);
