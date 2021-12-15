@@ -33,3 +33,7 @@ a {
     text-decoration: none;
     color: var(--black);
 }
+
+.container-width {
+    max-width: 80%;
+}

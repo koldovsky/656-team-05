@@ -18,10 +18,6 @@
     display: none;
 }
 
-.header__nav-menu > * {
-    padding: 10px;
-}
-
 #burger-checkbox:checked ~ .header__nav-menu {
     display: flex;
     flex-direction: column;
@@ -37,6 +33,6 @@
     }
     .header__nav-menu {
         display: flex;
-        margin-right: 20px;
+        margin-right: 25px;
     }
 }
