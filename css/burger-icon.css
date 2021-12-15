@@ -18,12 +18,18 @@
     display: none;
 }
 
+.header__nav-menu > * {
+    padding: 10px;
+}
+
 #burger-checkbox:checked ~ .header__nav-menu {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
 }
+
+
 
 @media (min-width: 850px) {
     .burger-icon {
