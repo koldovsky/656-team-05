@@ -7,7 +7,11 @@
     color: var(--brown);
     display: flex;
     align-items: center;
-    margin: 0 25px;
+    margin: 0 40px;
+}
+
+#burger-checkbox:checked ~ .burger-icon{
+    display: none;
 }
 
 .header__nav-menu {
@@ -17,6 +21,8 @@
 #burger-checkbox:checked ~ .header__nav-menu {
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 @media (min-width: 800px) {
@@ -25,5 +31,6 @@
     }
     .header__nav-menu {
         display: flex;
+        margin-right: 20px;
     }
 }
