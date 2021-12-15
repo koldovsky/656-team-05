@@ -2,6 +2,8 @@
 @media (min-width: 400px) {
     .what_we_do_content {
         display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
     }
 }
 @media (min-width: 400px) {
@@ -20,6 +22,7 @@
     .what_we_do_content-card {
         flex-direction: column;
         min-height: 360px;
+        min-width: 200px;
     }
 }
 .what_we_do_section {
