@@ -1,5 +1,5 @@
 /* Artem */
-/* Розставити пробіли перед перед усіма відкриваючими фігурними дужками. Рядок 22 - зайвий таб. Кольори вказати чер змінну color: var(--color); */
+
 .faq {
     padding: 55px;
     padding-bottom: 55px;
@@ -18,12 +18,12 @@
     object-position: 50% 50%;
     position:  relative;
     border-radius: inherit;
-    padding: 0px: 15px;
+    padding: 0px 15px;
     width: 100%;
 }
 
 .faq__text__full {
-    padding: 0px: 15px;
+    padding: 0px 15px;
 }
 .section__faq {
     color: var(--orange);
