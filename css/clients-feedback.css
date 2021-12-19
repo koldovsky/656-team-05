@@ -39,3 +39,34 @@
     margin: auto;
     overflow-wrap: break-word;
 }
+.clients_feedback_show {
+    position: relative;
+    display: block;
+    width: 100%;
+    margin: auto;
+}
+@media screen and (min-width: 680px) {
+.clients_feedback_show {
+    position: relative;
+    display: flex;
+}    
+}
+.clients {
+    margin: 20px;
+    background-color: #663b36;
+}
+.client_photo {
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    width: 150px !important;
+    height: 150px !important;
+}
+.client_name {
+    text-align: center;
+    color: #f7d832;
+    font-style: normal;
+    font-size: 25px;
+    margin-top: 20px;
+    font-family: Open Sans, sans-serif
+}
