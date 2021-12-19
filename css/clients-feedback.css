@@ -93,3 +93,22 @@
     margin-top: 20px;
     margin-bottom: 30px;
 }
+@media screen and (min-width: 600px) {
+.date {
+    color: #ffffff;
+    text-align: center;
+    font-family: Open Sans, sans-serif;
+    font-style: normal;
+    font-size: 16px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+}
+.info_statistic {
+    background-image: url(../img/background_for_info_statistic.png);
+    display: block;
+    margin-top: 0px;
+    margin-left: 0px;
+}
