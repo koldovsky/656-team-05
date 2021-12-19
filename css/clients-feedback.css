@@ -139,3 +139,12 @@
     margin-top: 10px;
     margin-bottom: 10px;
 }
+.info_text {
+    text-align: center;
+    font: inherit;
+    font-size: 16px;
+    font-weight: bold;
+    color: #413939;
+    margin: auto;
+    margin-bottom: 10px;
+}
