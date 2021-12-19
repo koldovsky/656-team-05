@@ -124,3 +124,10 @@
     display: block;
     margin: auto;
 }
+.info_heading {
+    text-align: center;
+    font-family: Open Sans, sans-serif;
+    font-size: 50px;
+    color: #eb6d2f;
+    margin: auto;
+}
