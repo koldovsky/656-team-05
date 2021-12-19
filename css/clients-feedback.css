@@ -131,3 +131,11 @@
     color: #eb6d2f;
     margin: auto;
 }
+.broun_line {
+    color: #663b36;
+    width: 50px;
+    border-bottom: 4px #663b36 solid;
+    margin: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
