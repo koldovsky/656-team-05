@@ -1,7 +1,7 @@
 /* Vasyl */
 
 .clients_feedback_section {
-    background-color: #5a3733;
+    background-image: url(../img/background_clients_feedback_section.png);
 }
 .clients_feedback_header {
     text-align: center;
@@ -53,7 +53,7 @@
 }
 .clients {
     margin: 20px;
-    background-color: #663b36;
+    background-image: url(../img/backgrount_for_clients.png);
 }
 .client_photo {
     display: flex;
@@ -69,4 +69,27 @@
     font-size: 25px;
     margin-top: 20px;
     font-family: Open Sans, sans-serif
+}
+.client_feedback {
+    text-align: center;
+    color: #ffffff;
+    font-family: Open Sans, sans-serif;
+    font-weight: bold;
+    font-size: 16px;
+    margin-top: 10px;
+    margin-left: 40px;
+    margin-right: 40px;
+    margin-bottom: 50px;
+    font-style: italic;
+}
+.date {
+    text-align: center;
+    color: #ffffff;
+    font-family: Open Sans, sans-serif;
+    font-style: normal;
+    font-size: 16px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    margin-bottom: 30px;
 }
