@@ -112,3 +112,15 @@
     margin-top: 0px;
     margin-left: 0px;
 }
+@media screen and (min-width: 680px) {
+.info_statistic {
+    background-image: url(../img/background_for_info_statistic.png);
+    display: flex;
+    margin-top: 0px;
+    margin-left: 0px;
+}
+}
+.info_element {
+    display: block;
+    margin: auto;
+}
