@@ -5,8 +5,8 @@
     color: var(--background-color);
     display: grid;
     grid-template-columns: 1fr 1fr;
-    gap: 20px;
-    min-width: 300px;
+    gap: 15px;
+    min-width: 320px;
 }
 
 .logo__faq img {
