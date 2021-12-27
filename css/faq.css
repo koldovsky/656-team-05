@@ -9,7 +9,7 @@
     min-width: 300px;
 }
 
-.logo__faq {
+.logo__faq img {
     width: 100%;
     height: 100%;
     object-fit: cover;

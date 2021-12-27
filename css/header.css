@@ -28,7 +28,17 @@
 .header__hamburger {
     display: block;
     cursor: pointer;
-    padding-right: 3%;
+    padding-right: 4%;
+}
+
+.header__hamburger.active .bar:nth-child(2) {
+    opacity: 0;
+}
+.header__hamburger.active .bar:nth-child(1) {
+    transform: translateY(8px) rotate(45deg);
+}
+.header__hamburger.active .bar:nth-child(3) {
+    transform: translateY(-8px) rotate(-45deg);
 }
 
 .header__hamburger .bar {
@@ -41,14 +51,29 @@
     background-color: var(--brown);
 }
 
+.header__nav-menu {
+    display: none;
+    position: fixed;
+    left: -100%;
+    gap: 0;
+    flex-direction: column;
+    width: 100%;
+    text-align: center;
+    transform: 0.3s;
+}
+
+.header__nav-menu.active {
+    left: 0;
+}
+
 @media (min-width: 768px) {
     .header__hamburger {
         display: none;
     }
 }
 
-.header__nav-menu {
-    display: none;
+.header__nav-item {
+    margin: 16px;
 }
 
 @media (min-width: 768px) {
