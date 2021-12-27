@@ -1,25 +1,22 @@
 /* Artem */
-
 .faq {
     padding: 55px;
-    padding-bottom: 55px;
+    padding-bottom: 55px; 
     color: var(--background-color);
-    display: flex;
-    min-width: 320px;
-
-   /* display: grid;
+    display: grid;
     grid-template-columns: 1fr 1fr;
-    grid-template-rows: 100px 100px;
-    grid-gap: 10px; */
+    gap: 20px;
+    min-width: 300px;
 }
 
 .logo__faq {
+    width: 100%;
+    height: 100%;
     object-fit: cover;
     object-position: 50% 50%;
     position:  relative;
     border-radius: inherit;
     padding: 0px 15px;
-    width: 100%;
 }
 
 .faq__text__full {
