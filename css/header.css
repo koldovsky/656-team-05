@@ -14,6 +14,7 @@ body.active {
 
 .header__nav-container {
     margin: 0 auto;
+    max-width: 1280px;
 }
 
 .header__nav {
@@ -135,7 +136,7 @@ body.active {
         justify-content: space-around;
         align-items: center;
         padding-right: 2%;
-        gap: 30px;
+        gap: 25px;
     }
 }
 
@@ -152,12 +153,12 @@ body.active {
     .header__nav-btn {
         background-color: transparent;
         border: 2px solid var(--orange);
-        border-radius: 5px;
+        border-radius: 8px;
         color: var(--brown);
         font-size: 14px;
         font-weight: 600;
         width: 120px;
-        line-height: 25px;
+        line-height: 35px;
     }
     .header__nav-btn:hover {
         background-color: var(--orange);
