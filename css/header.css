@@ -1,5 +1,9 @@
 /* Ivan */
 
+body.active {
+    overflow: hidden;
+}
+
 .header {
     min-height: 100vh;
     min-width: 300px;
