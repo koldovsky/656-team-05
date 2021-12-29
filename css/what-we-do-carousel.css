@@ -2,9 +2,14 @@
     display: flex;
     justify-content: center;
 }
-.what_we_do_carousel_slide{
+.what_we_do_carousel_slide {
     display: flex;
+    margin: 10px;
 }
 .what_we_do-carousel-container{
     display: flex;
+}
+.what_we_do_content_card_wrapper{
+    margin: 10px;
+    width: 100%;
 }

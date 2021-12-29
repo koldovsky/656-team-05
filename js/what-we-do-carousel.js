@@ -1,7 +1,7 @@
 (function(){
 
     const slides = [
-        `<div><article class="what_we_do_content-card">
+        `<div class="what_we_do_content_card_wrapper"><article class="what_we_do_content-card">
         <div class="what_we_do_content_inner">
             <div class="what_we_do_icon_wrapper">
                 <img width="64" src="img/icon_wwd-one.svg" alt="icon what we do one">
@@ -14,7 +14,7 @@
             </div>
         </div>
     </article></div>`,
-        `<div><article class="what_we_do_content-card">
+        `<div class="what_we_do_content_card_wrapper"><article class="what_we_do_content-card">
         <div class="what_we_do_content_inner">
             <div class="what_we_do_icon_wrapper">
                 <img width="64" src="img/icon_wwd-two.svg" alt="icon what we do two">
@@ -27,7 +27,7 @@
             </div>
         </div>
     </article></div>`,
-        `<div><article class="what_we_do_content-card">
+        `<div class="what_we_do_content_card_wrapper"><article class="what_we_do_content-card">
         <div class="what_we_do_content_inner">
             <div class="what_we_do_icon_wrapper">
                 <img width="64" src="img/icon_wwd-three.svg" alt="icon what we do three">
@@ -39,7 +39,7 @@
             </div>
         </div>
     </article></div>`,
-        `<div><article class="what_we_do_content-card">
+        `<div class="what_we_do_content_card_wrapper"><article class="what_we_do_content-card">
         <div class="what_we_do_content_inner">
             <div class="what_we_do_icon_wrapper">
                 <img width="64" src="img/icon_wwd-four.svg" alt="icon what we do four">
