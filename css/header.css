@@ -31,6 +31,22 @@ body.active {
 
 .header__nav-menu li {
     list-style: none;
+    font-family: Open Sans, sans-serif;
+}
+
+.yellow-underline:hover {
+    border-bottom: 2px solid var(--yellow);
+    transition: 0.3s;
+}
+
+.header__nav-item > a {
+    padding: 5px;
+    font-weight: 500;
+}
+
+.header__nav-item > a:hover {
+    border-bottom: 2px solid var(--yellow);
+    transition: 0.2s;
 }
 
 .header__hamburger {
@@ -60,7 +76,7 @@ body.active {
 }
 
 @media (max-width: 767px) {
-    .header__nav-menu{
+    .header__nav-menu {
         background-color: var(--background-color);
         display: none;
         position: absolute;
@@ -71,22 +87,27 @@ body.active {
         width: 100%;
         min-height: 100vh;
         text-align: center;
-        transition: ease-in-out;
     }
-
     .header__nav-menu.active {
         display: flex;
         top: 0;
+    }
+    .header__nav-item > a {
+        font-size: 16px;
+    }
+    .header__nav-item a:hover {
+        color: var(--orange);
+        transition: 0.2s;
     }
     .header__nav-btn {
         background-color: transparent;
         border: 2px solid var(--orange);
         border-radius: 5px;
         color: var(--brown);
-        font-size: 14px;
+        font-size: 16px;
         font-weight: 600;
-        width: 100px;
-        line-height: 25px;
+        width: 140px;
+        line-height: 35px;
     }
     .header__nav-btn:hover {
         background-color: var(--orange);
@@ -102,7 +123,7 @@ body.active {
 }
 
 .header__nav-item {
-    margin: 16px;
+    margin-bottom: 5px;
 }
 
 @media (min-width: 768px) {
@@ -111,6 +132,7 @@ body.active {
         justify-content: space-around;
         align-items: center;
         padding-right: 2%;
+        gap: 30px;
     }
 }
 
@@ -122,7 +144,7 @@ body.active {
     }
     .header__nav-item a:hover {
         color: var(--orange);
-        transition: 0.3s;
+        transition: 0.2s;
     }
     .header__nav-btn {
         background-color: transparent;
@@ -131,7 +153,7 @@ body.active {
         color: var(--brown);
         font-size: 14px;
         font-weight: 600;
-        width: 100px;
+        width: 120px;
         line-height: 25px;
     }
     .header__nav-btn:hover {
@@ -248,7 +270,7 @@ body.active {
         background-position: cover;
     }
     .header__nav-item > a {
-        font-size: 16px;
+        font-size: 14px;
     }
     .header__banner-container {
         margin-top: 130px;
@@ -268,5 +290,8 @@ body.active {
 @media (min-width: 1100px) {
     .header__nav * {
         margin: 0 10px;
+    }
+    .header__nav-item > a {
+        font-size: 16px;
     }
 }
