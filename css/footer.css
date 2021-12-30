@@ -1,0 +1,26 @@
+.footer {
+    background-image: url(../img/footer-bg-img.webp);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+}
+
+.footer__logo-container img {
+    display: block;
+    width: 100%;
+}
+
+.footer__nav-menu ul {
+    display: flex;
+}
+
+.footer__nav-menu li {
+    list-style: none;
+}
+
+.footer__rights {
+    display: flex;
+    flex-direction: column;
+}
