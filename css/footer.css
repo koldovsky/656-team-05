@@ -1,5 +1,6 @@
 /* Ivan */
 .footer {
+    font-family: Open Sans, sans-serif;
     background-image: url(../img/footer-bg-img.webp);
     display: flex;
     flex-direction: column;
@@ -10,24 +11,34 @@
 
 .footer__logo-container img {
     display: block;
-    width: 50%;
+    width: 30%;
     margin: 0 auto;
 }
 
 .footer__logo-container span {
     color: var(--gray);
+    font-weight: 500;
 }
 
-.footer__logo-container img
-
-.footer__nav-menu ul {
+.footer__nav-menu {
     display: flex;
+    flex-direction: column;
+    gap: 15px;
+    padding: 20px 0;
 }
 
 .footer__nav-menu li {
     list-style: none;
     text-align: center;
-    padding: 5px;
+}
+
+.footer__nav-menu a {
+   color: var(--brown);
+   font-weight: 500;
+}
+
+.footer__nav-menu a:hover {
+    color: var(--orange);
 }
 
 .footer__rights {
@@ -35,7 +46,7 @@
     flex-direction: column;
     justify-content: center;
     gap: 20px;
-    padding-top: 10px;
+    padding-top: 20px;
     padding-bottom: 15px;
 }
 
@@ -45,4 +56,16 @@
     font-weight: 400;
     color: #413939;
     text-align: center;
+}
+
+.footer__rights span a {
+    cursor: pointer;
+    font-weight: 500;
+}
+
+.footer__rights span a:hover {
+    color: var(--orange);
+    cursor: pointer;
+    font-weight: 600;
+    transition: 0.2s;
 }
