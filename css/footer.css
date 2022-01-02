@@ -39,6 +39,18 @@
 
 .footer__nav-menu a:hover {
     color: var(--orange);
+    transition: 0.2s;
+}
+
+.footer__socials a {
+    font-size: 36px;
+    color: var(--orange);
+    padding: 0 5px;
+}
+
+.footer__socials a:hover {
+    color: var(--dark-orange);
+    transition: 0.2s;
 }
 
 .footer__rights {
@@ -59,12 +71,11 @@
 }
 
 .footer__rights span a {
-    cursor: pointer;
     font-weight: 500;
 }
 
 .footer__rights span a:hover {
-    color: var(--orange);
+    color: var(--dark-orange);
     cursor: pointer;
     font-weight: 600;
     transition: 0.2s;
