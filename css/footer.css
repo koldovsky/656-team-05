@@ -4,12 +4,21 @@
     min-width: 320px;
     font-family: Open Sans, sans-serif;
     background-image: url(../img/footer-bg-img.webp);
+    background-position: left;
+    background-size: cover;
+    background-repeat: no-repeat;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     gap: 5px;
     margin-top: 80px;
+}
+
+@media screen and (min-width: 700px) {
+    .footer {
+        background-size: cover;
+    }
 }
 
 .footer__logo-container img {
