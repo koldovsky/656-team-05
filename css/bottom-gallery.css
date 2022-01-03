@@ -30,6 +30,7 @@
 
 @media screen and (min-width: 990px) {
     .bottom-gallery {
+        width: 97%;
         grid-template-columns: repeat(5, 1fr);
         grid-template-rows: 1fr;
         justify-content: center;
