@@ -1,4 +1,5 @@
 /* Ivan */
+
 .footer {
     font-family: Open Sans, sans-serif;
     background-image: url(../img/footer-bg-img.webp);
@@ -25,6 +26,13 @@
     flex-direction: column;
     gap: 15px;
     padding: 20px 0;
+}
+
+@media screen and (min-width: 900px) {
+    .footer__nav-menu {
+        flex-direction: row;
+        gap: 30px;
+    }
 }
 
 .footer__nav-menu li {
@@ -60,6 +68,13 @@
     gap: 20px;
     padding-top: 20px;
     padding-bottom: 15px;
+}
+
+@media screen and (min-width: 900px) {
+    .footer__rights {
+        flex-direction: row;
+        padding-bottom: 25px;
+    }
 }
 
 .footer__rights span {
