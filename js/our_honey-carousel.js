@@ -8,11 +8,11 @@
         '<div><img src="img/c-b-honey.jpg" alt="citrus blossom-honey"></div>'
     ];
 
-    let CurrentSlide = 0;
+    let currentSlide = 0;
 
     function showCurrentSlide() {
-        const slideConteiner = document.querySelector('.our_honey-carousel__slide');
-        slideConteiner.innerHTML = slides[currentSlide];
+        const slideContainer = document.querySelector(".our_honey-carousel__slide");
+        slideContainer.innerHTML = slides[currentSlide];
         if (window.innerWidth > 600) {
             const secondSlide = currentSlide + 1 >= slides.length ? 0 : currentSlide + 1;
             slideContainer.innerHTML += slides[secondSlide];
@@ -28,9 +28,14 @@
         showCurrentSlide();
     }
 
-    setInterval(nextSlide, 1000);
+    function prevSlide() {
+        currentSlide = currentSlide - 1 <= 0 ? slides.length - 1 : currentSlide - 1;
+        showCurrentSlide();
+    }
+
     showCurrentSlide();
 
-document.querySelector('.our_honey-carousel forward').addEventListener('click', nextSlide);
-
+    document.querySelector('.our_honey-carousel__button.forward').addEventListener('click', nextSlide);
+    document.querySelector('.our_honey-carousel__button.back').addEventListener('click', prevSlide);
+        window.addEventListener('resize', showCurrentSlide);
 })();

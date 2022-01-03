@@ -74,7 +74,6 @@
     max-width: 100%;
     overflow-wrap: break-word;
     text-align: center;
-    vertical-align: baseline;
     display: block;
     font-family: Open Sans, sans-serif;
     margin-top: 16px;
@@ -82,4 +81,5 @@
 }
 #box-container {
     display: flex;
+    flex-direction: column;
 }

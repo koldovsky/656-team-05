@@ -1,0 +1,9 @@
+.our_honey-carousel {
+    display: flex;
+    justify-content: center;
+}
+
+.our_honey-carousel__slide {
+    display: flex;
+    margin: 10px;
+}
