@@ -1,0 +1,23 @@
+.about-beehoney {
+    background-image: url(../img/about-beehoney-bg.webp);
+    background-position: center;
+    background-size: contain;
+    min-height: 250px;
+}
+
+.about-beehoney__container {
+    display: flex;
+    flex-direction: column;
+}
+
+@media screen and (min-width: 770px) {
+    .about-beehoney__container {
+        flex-direction: row;
+    }
+}
+
+.about-beehoney__image {
+    background-image: url(../img/about-beehoney-picture.webp);
+    background-position: center;
+    background-size: cover;
+}
