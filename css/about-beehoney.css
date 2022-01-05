@@ -1,8 +1,10 @@
 .about-beehoney {
     background-image: url(../img/about-beehoney-bg.webp);
     background-position: center;
-    background-size: contain;
-    min-height: 250px;
+    background-size: cover;
+    min-height: 80vh;
+    margin-top: 25px;
+    margin-bottom: 25px;
 }
 
 .about-beehoney__container {
@@ -20,4 +22,6 @@
     background-image: url(../img/about-beehoney-picture.webp);
     background-position: center;
     background-size: cover;
+    width: 250px;
+    height: 80vh;
 }

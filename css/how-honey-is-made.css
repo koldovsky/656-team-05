@@ -7,7 +7,6 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 70px;
     margin-bottom: 70px;
 }
 
@@ -22,28 +21,47 @@
     cursor: pointer;
 }
 
-.paralax-bg:hover img {
-    width: 42%;
-    height: 42%;
-}
-
-.paralax-bg:hover span {
-    font-size: 17px;
-}
-
 .paralax-bg img {
-    width: 40%;
-    height: 40%;
+    width: 30%;
+    height: 30%;
     margin-bottom: 30px;
 }
 
+.paralax-bg:hover img {
+    width: 32%;
+    height: 32%;
+}
 
+@media screen and (min-width: 770px) {
+    .paralax-bg img {
+        width: 40%;
+        height: 40%;
+        margin-bottom: 30px;
+    }
+    .paralax-bg:hover img {
+        width: 42%;
+        height: 42%;
+    }
+}
 
 .paralax-bg span {
     text-transform: uppercase;
-    font-size: 16px;
+    font-size: 14px;
     letter-spacing: 3px;
     color: var(--white);
+}
+
+.paralax-bg:hover span {
+    font-size: 15px;
+}
+
+@media screen and (min-width: 770px) {
+    .paralax-bg span {
+        font-size: 16px;
+    }
+    .paralax-bg:hover span {
+        font-size: 17px;
+    }
 }
 
 .icon {

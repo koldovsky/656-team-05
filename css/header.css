@@ -61,9 +61,11 @@ body.active {
 .header__hamburger.active .bar:nth-child(2) {
     opacity: 0;
 }
+
 .header__hamburger.active .bar:nth-child(1) {
     transform: translateY(8px) rotate(45deg);
 }
+
 .header__hamburger.active .bar:nth-child(3) {
     transform: translateY(-8px) rotate(-45deg);
 }
