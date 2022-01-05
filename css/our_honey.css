@@ -80,6 +80,9 @@
     width: 25%;
     margin-left: 38%;
 }
+.our_honey-button:hover {
+    background-color: #f7d832;
+}
 #box-container {
     display: flex;
     flex-direction: column;
