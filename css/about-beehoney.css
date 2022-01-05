@@ -2,26 +2,111 @@
     background-image: url(../img/about-beehoney-bg.webp);
     background-position: center;
     background-size: cover;
-    min-height: 80vh;
-    margin-top: 25px;
-    margin-bottom: 25px;
+    display: flex;
+    align-items: center;
+    margin-top: 55px;
+    margin-bottom: 55px;
 }
 
 .about-beehoney__container {
-    display: flex;
-    flex-direction: column;
+    max-width: 1280px;
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    justify-content: center;
+    margin: 0 auto;
 }
 
 @media screen and (min-width: 770px) {
     .about-beehoney__container {
-        flex-direction: row;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr;
     }
 }
 
 .about-beehoney__image {
     background-image: url(../img/about-beehoney-picture.webp);
     background-position: center;
-    background-size: cover;
-    width: 250px;
-    height: 80vh;
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.about-beehoney__orange-line {
+    background-color: var(--orange);
+    height: 4px;
+    width: 10%;
+    margin-top: 5px;
+    margin-bottom: 15px;
+}
+
+.about-beehoney__text {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 25px;
+    margin: 0 auto;
+}
+
+.about-beehoney__text span {
+    font-family: Open Sans, sans-serif;
+    font-size: 14px;
+    text-transform: uppercase;
+    margin-bottom: 25px;
+}
+
+@media screen and (min-width: 770px) {
+    .about-beehoney__text span {
+        margin-bottom: 30px;
+    }
+}
+
+.about-beehoney__text h2 {
+    font-size: 38px;
+    font-weight: 600;
+    color: var(--brown);
+    text-transform: uppercase;
+    margin-bottom: 10px;
+}
+
+@media screen and (min-width: 770px) {
+    .about-beehoney__text h2 {
+        font-size: 50px;
+    }
+}
+
+.about-beehoney__text p {
+    font-family: Open Sans, sans-serif;
+    line-height: 27px;
+}
+
+.about-beehoney__text-list img {
+    width: 10%;
+}
+
+@media screen and (min-width: 770px) {
+    .about-beehoney__text-list img {
+        width: 15%;
+    }
+}
+
+.about-beehoney__text-list li {
+    display: flex;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.about-beehoney__text-list div {
+    padding-left: 10px;
+}
+
+.about-beehoney__text-list h6 {
+    font-size: 25px;
+    color: var(--brown);
+}
+
+.about-beehoney__text-list p {
+    font-size: 16px;
+    font-family: Open Sans, sans-serif;
+    line-height: 25px;
 }
