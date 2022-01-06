@@ -188,7 +188,6 @@
     <!-- Roman Nazar start -->
     <section class="types-of-honey-container">
         <div class="types-of-honey">
-            <!-- TODO: Виправити проблему спільних стилів для span та p -->
             <span class="types-of-honey__orange-text">Types of honey</span>
             <h2>Top honey flawors from our swaths</h2>
             <div class="types-of-honey__orange-line"></div>
@@ -258,9 +257,13 @@
         </div>
         <div class="carousel-container">
             <div class="our_honey-carousel"></div>
-                <button class="our_honey-carousel__button back"><</button>
+                <button class="our_honey-carousel__button back">
+                    &#10094;
+                </button>
                 <div class="our_honey-carousel__slide"></div>
-                <button class="our_honey-carousel__button forward">></button>       
+                <button class="our_honey-carousel__button forward" data-target="#carouselExampleControls">
+                    &#10095;
+                </button>       
             <div id="box-container" class="our_honey_show"></div>
             <!--<div id="box_w">
                 <article class="our_honey-show__card">

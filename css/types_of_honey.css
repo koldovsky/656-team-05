@@ -3,6 +3,7 @@
 .types-of-honey {
     background-color: #f9f3ee;
     display: flex;
+    flex-direction: column;
 }
 
 span {
@@ -76,6 +77,8 @@ p {
     line-height: 27.2px;
     margin: 0px;
     text-align: center;
+    width: 100%;
+    display: block;
     vertical-align: baseline;
 }
 

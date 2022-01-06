@@ -25,6 +25,7 @@
     display: flex;
     text-align: center;
     flex-direction: column;
+    cursor: pointer;
 }
 
 .slide {
@@ -39,6 +40,7 @@
     background-color: #f9f3ee;
     border-color: none;
     color: #836763;
+    cursor: pointer;
     }
 
 .our_honey-carousel__button.back {
@@ -47,4 +49,8 @@
 
 .our_honey-carousel__button.forward {
     right: 8px;
+    }
+
+.our_honey-button {
+    cursor: pointer;
     }
