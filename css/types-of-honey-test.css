@@ -72,3 +72,10 @@
     padding-left: 10px;
 }
 
+/* Carousel */
+
+.tab-content {
+    display: flex;
+    flex-direction: column;
+}
+
