@@ -3,6 +3,8 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    max-width: 1280px;
+    margin: 0 auto;
 }
 
 @media screen and (min-width: 780px) {
@@ -81,6 +83,12 @@
     flex-direction: column;
 }
 
+@media screen and (min-width: 770px) {
+    .tab-content {
+        flex-direction: row;
+    }
+}
+
 .honey-show__card {
     background-color: var(--white);
     border-radius: 7px;
@@ -89,7 +97,7 @@
     align-items: center;
     text-align: center;
     position: relative;
-    width: 85vw;
+    width: 85%;
     min-height: 350px;
     margin-bottom: 15px;
 }
