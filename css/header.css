@@ -222,6 +222,7 @@ body.active {
     color: var(--main-text-color);
     font-family: Open Sans, sans-serif;
     font-size: 14px;
+    font-weight: 400;
     width: 300px;
     line-height: 30px;
     margin-top: 15px;
