@@ -35,7 +35,7 @@
 .about-beehoney__orange-line {
     background-color: var(--orange);
     height: 4px;
-    width: 10%;
+    width: 15%;
     margin-top: 5px;
     margin-bottom: 15px;
 }
@@ -49,8 +49,10 @@
 }
 
 .about-beehoney__text span {
+    color: var(--orange);
     font-family: Open Sans, sans-serif;
     font-size: 14px;
+    font-weight: 600;
     text-transform: uppercase;
     margin-bottom: 25px;
 }
@@ -81,12 +83,12 @@
 }
 
 .about-beehoney__text-list img {
-    width: 10%;
+    width: 15%;
 }
 
 @media screen and (min-width: 770px) {
     .about-beehoney__text-list img {
-        width: 15%;
+        width: 17%;
     }
 }
 
@@ -101,8 +103,14 @@
 }
 
 .about-beehoney__text-list h6 {
-    font-size: 25px;
+    font-size: 22px;
     color: var(--brown);
+}
+
+@media screen and (min-width: 770px) {
+    .about-beehoney__text-list img {
+        width: 17%;
+    }
 }
 
 .about-beehoney__text-list p {

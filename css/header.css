@@ -55,7 +55,7 @@ body.active {
 .header__hamburger {
     display: block;
     cursor: pointer;
-    padding-right: 4%;
+    padding-right: 30px;
 }
 
 .header__hamburger.active .bar:nth-child(2) {
@@ -180,7 +180,7 @@ body.active {
     flex-direction: column;
     justify-content: center;
     align-items: left;
-    margin-top: 100px;
+    margin-top: 130px;
     margin-left: 30px;
 }
 
@@ -192,15 +192,17 @@ body.active {
 
 .header__banner span {
     color: var(--orange);
+    font-family: Open Sans, sans-serif;
     font-size: 14px;
-    margin-left: 5px;
+    font-weight: 600;
+    text-transform: uppercase;
+    margin-bottom: 15px;
 }
 
 .header__banner h1 {
     color: var(--brown);
     font-size: 54px;
     text-transform: uppercase;
-    margin-top: 15px;
 }
 
 @media (min-width: 400px) {
@@ -212,7 +214,7 @@ body.active {
 .orange-line {
     background-color: var(--orange);
     height: 4px;
-    width: 10%;
+    width: 15%;
     margin: 10px 0 15px;
 }
 

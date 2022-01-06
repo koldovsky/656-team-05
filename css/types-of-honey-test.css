@@ -1,0 +1,74 @@
+.types-of-honey-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+@media screen and (min-width: 780px) {
+    .types-of-honey-container {
+        flex-direction: row;
+    }
+}
+
+.types-of-honey {
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 15px;
+}
+
+.types-of-honey__orange-text {
+    color: var(--orange);
+    font-family: Open Sans, sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.types-of-honey h2 {
+    color: var(--brown);
+    font-size: 38px;
+    font-weight: 600;
+    text-transform: uppercase;
+    margin-top: 15px;
+    margin-bottom: 20px;
+}
+
+.types-of-honey__orange-line {
+    background-color: var(--orange);
+    height: 4px;
+    width: 15%;
+    margin-bottom: 15px;
+}
+
+.types-of-honey p {
+    font-family: Open Sans, sans-serif;
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 30px;
+    margin-bottom: 25px;
+}
+
+
+.types-of-honey__list ul {
+    list-style: none;
+}
+
+.types-of-honey__list li {
+    display: flex;
+    align-items: center;
+    padding-bottom: 15px;
+}
+
+.types-of-honey__list img {
+    width: 4%;
+}
+
+.types-of-honey__list span {
+    color: var(--black);
+    font-family: Open Sans, sans-serif;
+    font-size: 16px;
+    font-weight: 300;
+    padding-left: 10px;
+}
+
