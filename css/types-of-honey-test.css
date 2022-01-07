@@ -19,6 +19,12 @@
     padding: 20px;
 }
 
+@media screen and (min-width: 780px) {
+    .types-of-honey {
+        min-width: 30%;
+    }
+}
+
 .types-of-honey__orange-text {
     color: var(--orange);
     font-family: Open Sans, sans-serif;
@@ -36,6 +42,12 @@
     margin-bottom: 20px;
 }
 
+@media screen and (min-width: 780px) {
+    .types-of-honey h2 {
+        font-size: 50px;
+    }
+}
+
 .types-of-honey__orange-line {
     background-color: var(--orange);
     height: 4px;
@@ -51,7 +63,6 @@
     margin-bottom: 25px;
 }
 
-
 .types-of-honey__list ul {
     list-style: none;
 }
@@ -62,10 +73,8 @@
     padding-bottom: 20px;
 }
 
-
-
 .types-of-honey__list img {
-    width: 4%;
+    width: 20px;
 }
 
 .types-of-honey__list span {
