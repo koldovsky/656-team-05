@@ -1,6 +1,6 @@
 /* Vasyl */
 
-.clients_feedback_section {
+.clients_feedback {
     background-image: url(../img/background_clients_feedback_section.png);
 }
 .clients_feedback_header {
@@ -39,14 +39,14 @@
     margin: auto;
     overflow-wrap: break-word;
 }
-.clients_feedback_show {
+.clients_feedback_places {
     position: relative;
     display: block;
     width: 100%;
     margin: auto;
 }
 @media screen and (min-width: 680px) {
-.clients_feedback_show {
+.clients_feedback_places {
     position: relative;
     display: flex;
 }    
