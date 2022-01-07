@@ -108,7 +108,7 @@
     position: relative;
     width: 85%;
     min-height: 350px;
-    margin-bottom: 15px;
+    margin: 0 auto 15px;
 }
 
 .honey-show__card img {
