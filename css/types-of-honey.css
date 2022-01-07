@@ -4,6 +4,8 @@
     justify-content: center;
     align-items: center;
     max-width: 1280px;
+    min-width: 320px;
+    padding: 0 20px;
     margin: 0 auto;
 }
 
@@ -16,7 +18,8 @@
 .types-of-honey {
     max-width: 1280px;
     margin: 0 auto;
-    padding: 20px;
+    padding-top: 15px;
+    padding-bottom: 15px;
 }
 
 @media screen and (min-width: 780px) {
@@ -106,9 +109,9 @@
     align-items: center;
     text-align: center;
     position: relative;
-    width: 85%;
+    width: 95%;
     min-height: 350px;
-    margin: 0 auto 15px;
+    margin: 0 auto 25px;
 }
 
 .honey-show__card img {

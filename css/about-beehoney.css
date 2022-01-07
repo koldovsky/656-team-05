@@ -13,6 +13,7 @@
     display: grid;
     grid-template-rows: 1fr 1fr;
     justify-content: center;
+    padding: 0 20px;
     margin: 0 auto;
 }
 
@@ -44,7 +45,6 @@
     display: flex;
     justify-content: center;
     flex-direction: column;
-    padding: 25px;
     margin: 0 auto;
 }
 
@@ -105,12 +105,6 @@
 .about-beehoney__text-list h6 {
     font-size: 22px;
     color: var(--brown);
-}
-
-@media screen and (min-width: 770px) {
-    .about-beehoney__text-list img {
-        width: 17%;
-    }
 }
 
 .about-beehoney__text-list p {
