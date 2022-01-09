@@ -1,26 +1,31 @@
 (function() {
     const jars = [
         {
+          id: "1",
           title: "Wildflower Honey",
           image: "img/w-f-honey.jpg",
           price: "$7.00",
         },
         {
+          id: "2",
           title: "Blossom Honey",
           image: "img/bl-honey.jpg",
           price: "$20.00",
         },
         {
+          id: "3",
           title: "Clover Honey",
           image: "img/cl-honey.jpg",
           price: "$8.00",
         },
         {
+          id: "4",
           title: "Buckwheat Honey",
           image: "img/bw-honey.jpg",
           price: "$10.00",
         },
         {
+          id: "5",
           title: "Citrus Blossom Honey",
           image: "img/c-b-honey.jpg",
           price: "$15.00",
@@ -50,6 +55,12 @@
                 const thirdSlide =
                 secondSlide + 1 >= jars.length ? 0 : secondSlide + 1;
                 jarsContainer.innerHTML += renderSlide(jars[thirdSlide]);
+
+                if (window.innerWidth > 900) {
+                  const fourthSlide =
+                  thirdSlide + 1 >= jars.length ? 0 : thirdSlide + 1;
+                  jarsContainer.innerHTML += renderSlide(jars[fourthSlide]);
+                }
             }
         }
     }

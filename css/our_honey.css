@@ -60,7 +60,6 @@
     font-size: 21px;
     font-stretch: 100%;
     line-height: 29.4px;
-    margin-top: 16px;
     text-align: center;
 }
 .our_honey-button {
@@ -86,4 +85,10 @@
 #box-container {
     display: flex;
     flex-direction: column;
+}
+#cart-badge {
+    display: flex;
+    flex-direction: column;
+    stroke: #212736;
+    padding: px;
 }
