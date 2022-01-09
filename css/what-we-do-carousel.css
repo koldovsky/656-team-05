@@ -13,3 +13,26 @@
     margin: 10px;
     width: 100%;
 }
+.what_we_do-carousel__button.back, .forward{
+    border: none;
+}
+.what_we_do-carousel__button{
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+.back, .forward{
+    font-size: 50px;
+    background-color: var(--background-color);
+    color: var(--brown);
+}
+
+.back{
+    margin-left: 10px;
+    margin-right: 0px;
+}
+.forward{
+    margin-right: 10px;
+    margin-left: 20px;
+}
+
