@@ -84,4 +84,4 @@
     document.querySelector('.what_we_do-carousel__button.forward').addEventListener('click', prevSlide);
     window.addEventListener('resize', showCurrentSlide);
 
-})();
+})
