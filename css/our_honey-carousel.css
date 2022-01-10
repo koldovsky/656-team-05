@@ -37,9 +37,7 @@
 .our_honey-carousel__button {
     display: flex;
     font-size: 50px;
-    background-color: #f9f3ee;
-    border-color: none;
-    color: #836763;
+    border: none;
     cursor: pointer;
     }
 
@@ -54,3 +52,18 @@
 .our_honey-button {
     cursor: pointer;
     }
+
+.back{
+    margin-left: 10px;
+    margin-right: 0px;
+    font-size: 35px;
+    background-color: #f9f3ee;
+    color: #836763;
+}
+.forward{
+    margin-right: 10px;
+    margin-left: 20px;
+    font-size: 35px;
+    background-color: #f9f3ee;
+    color: #836763;
+}

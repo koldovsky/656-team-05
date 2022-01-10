@@ -92,3 +92,8 @@
     stroke: #212736;
     padding: px;
 }
+
+#waves {
+    display: table-caption;
+    caption-side: top;
+}
