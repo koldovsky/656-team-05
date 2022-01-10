@@ -8,8 +8,14 @@ const slides = [
 ];
 let currentSlide = 0;
 function showCurrentSlide() {
-        const slideContainer = document.querySelector(".types_of_honey_carousel_slide");
+        const slideContainer = document.querySelector('.types_of_honey_carousel_slide');
         slideContainer.innerHTML = slides[currentSlide];
+        if (window.innerWidth > 600) {
+            const secondSlide = currentSlide + 1 >= slides.length ? 0 : currentSlide + 1;
+            slideContainer.innerHTML += slides[secondSlide];
+            if (window.innerWidth > 900) {
+                const thirdSlide = secondSlide + 1 >= slides.length ? 0 : secondSlide + 1;
+                slideContainer.innerHTML += slides[thirdSlide];
 }
 
 function nextSlide() {
@@ -22,8 +28,8 @@ function nextSlide() {
         currentSlide = currentSlide - 1 <= 0 ? slides.length - 1 : currentSlide - 1;
 showCurrentSlide();
     }
-
+{
     document.querySelector('.types_of_honey-carousel__button.forward').addEventListener('click', nextSlide);
     document.querySelector('.types_of_honey-carousel__button.forward').addEventListener('click', prevSlide);
     window.addEventListener('resize', renderJars);
-})();
+}; 
