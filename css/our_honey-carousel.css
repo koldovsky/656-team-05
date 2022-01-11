@@ -39,28 +39,29 @@
     font-size: 50px;
     border: none;
     cursor: pointer;
-    }
+}
 
 .our_honey-carousel__button.back {
     left: 8px;
-    }
+}
 
 .our_honey-carousel__button.forward {
     right: 8px;
-    }
+}
 
 .our_honey-button {
     cursor: pointer;
-    }
+}
 
-.back{
+.back {
     margin-left: 10px;
     margin-right: 0px;
     font-size: 35px;
     background-color: #f9f3ee;
     color: #836763;
 }
-.forward{
+
+.forward {
     margin-right: 10px;
     margin-left: 20px;
     font-size: 35px;

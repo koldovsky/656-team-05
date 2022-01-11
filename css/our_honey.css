@@ -3,6 +3,7 @@
 .our_honey_header {
     text-align: center;
 }
+
 .our_honey_header_small {
     text-align: center;
     color: #eb6d2f;
@@ -12,47 +13,52 @@
     font-weight: 700;
     letter-spacing: 1.4px;
     line-height: 14px;
+    text-transform: uppercase;
     overflow-wrap: break-word;
     vertical-align: baseline;
     margin: 0px;
     font-family: Open Sans, sans-serif;
 }
+
 .our_honey_header_big {
     text-align: center;
-    color: #663b36;
+    color: var(--brown);
     height: 50px;
     padding: 20px;
     font-size: 38px;
     font-stretch: 100%;
-    font-weight: 700;
+    font-weight: 600;
     line-height: 47.5px;
 }
+
 .our_honey_header_line {
+    border: none;
     color: #eb6d2f;
-    height: 2px;
+    height: 4px;
     width: 65px;
-    margin-right: center;
-    margin-left: 48%;
+    margin: 0 auto;
     background-color: #eb6d2f;
 }
+
 .our_honey_header_content {
     text-align: center;
-    color: #413939;
-    width: 90%;
+    color: var(--main-text-color);
     padding: 20px;
     font-size: 18px;
     font-stretch: 100%;
-    font-weight: 400;
+    font-weight: 300;
     line-height: 28.8px;
     overflow-wrap: break-word;
     vertical-align: baseline;
 }
+
 .our_honey-show__name {
     color: #929393;
     text-align: center;
 }
+
 .our_honey-show__price {
-    color: #ffd832;
+    color: var(--yellow);
     font-weight: 700;
     white-space: nowrap;
     margin-top: 16px;
@@ -62,30 +68,38 @@
     line-height: 29.4px;
     text-align: center;
 }
+
 .our_honey-button {
     color: #ffffff;
+    cursor: pointer;
     background-color: #eb6d2f;
+    border: none;
     border-radius: 10px;
     font-size: 15px;
     font-stretch: 100%;
     font-weight: 500;
     height: 43.95px;
     letter-spacing: 0.45px;
+    min-width: 140px;
     max-width: 100%;
     overflow-wrap: break-word;
     align-items: center;
     display: block;
     font-family: Open Sans, sans-serif;
     width: 25%;
-    margin-left: 38%;
+    margin: 25px auto;
 }
+
 .our_honey-button:hover {
     background-color: #f7d832;
+    transition: 0.2s;
 }
+
 #box-container {
     display: flex;
     flex-direction: column;
 }
+
 #cart-badge {
     display: flex;
     flex-direction: column;
