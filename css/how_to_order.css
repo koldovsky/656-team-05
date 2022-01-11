@@ -1,0 +1,95 @@
+/* Olena */
+
+#how_to_order {
+    background-color:#f7d832;
+}
+#how_to_order {
+    display: flex;
+    flex-direction: column;
+}
+
+.how_to_order_header {
+    text-align: center;
+}
+.how_to_order_header_small {
+    text-align: center;
+    color: #eb6d2f;
+    height: 50px;
+    font-size: 14px;
+    font-stretch: 100%;
+    font-weight: 700;
+    letter-spacing: 1.4px;
+    line-height: 14px;
+    overflow-wrap: break-word;
+    vertical-align: baseline;
+    margin: 0px;
+    font-family: Open Sans, sans-serif;
+}
+.how_to_order_header_big {
+    text-align: center;
+    color: #663b36;
+    height: 50px;
+    padding: 20px;
+    font-size: 38px;
+    font-stretch: 100%;
+    font-weight: 700;
+    line-height: 47.5px;
+}
+.how_to_order_header_line {
+    color: #eb6d2f;
+    height: 2px;
+    width: 65px;
+    margin-right: center;
+    margin-left: 48%;
+    background-color: #eb6d2f;
+}
+.how_to_order_header_content {
+    text-align: center;
+    color: #413939;
+    width: 90%;
+    padding: 20px;
+    font-size: 18px;
+    font-stretch: 100%;
+    font-weight: 200;
+    line-height: 28.8px;
+    overflow-wrap: break-word;
+    vertical-align: baseline;
+}
+.how_to_order-show__name {
+    display: flex;
+    color: #5a3733;
+    text-align: center;
+}
+.how_to_order-show__description{
+    display: flex;
+    color: #5a3733;
+    text-align: center;
+}
+
+.how_to_order-button {
+    color: #ffffff;
+    background-color: #eb6d2f;
+    border-radius: 10px;
+    font-size: 15px;
+    font-stretch: 100%;
+    font-weight: 500;
+    height: 60px;
+    letter-spacing: 0.45px;
+    max-width: 100%;
+    overflow-wrap: break-word;
+    align-items: center;
+    display: block;
+    font-family: Open Sans, sans-serif;
+    width: 20%;
+    margin-left: 38%;
+    border: none;
+    cursor: pointer;
+}
+.how_to_order-button:hover {
+    background-color: #5a3733;
+}
+
+#button_how {
+    display: table-caption;
+    caption-side: top;
+}
