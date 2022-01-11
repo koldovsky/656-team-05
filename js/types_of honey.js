@@ -54,5 +54,5 @@
       }
     }
   
-    renderProducts(products);
+    renderProducts(products)
   })();
