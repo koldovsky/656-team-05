@@ -10,7 +10,7 @@
             <p class="what_we_do_card-text">We produce, bottle, and sell honey harvested by our beekeepers.
             </p>
             <div class="what_we_do_anchor_container">
-                <a href="#" class="what_we_do_anchor_text">Learn more</a>
+                <a href="#about-us" class="what_we_do_anchor_text">Learn more</a>
             </div>
         </div>
     </article></div>`,
