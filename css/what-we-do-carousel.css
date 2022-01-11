@@ -15,6 +15,7 @@
 }
 .what_we_do-carousel__button.back, .forward{
     border: none;
+    background-color: transparent;
 }
 .what_we_do-carousel__button{
     display: flex;
