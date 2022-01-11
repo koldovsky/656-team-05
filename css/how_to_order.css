@@ -3,9 +3,11 @@
 #how_to_order {
     background-color:#f7bd00;
 }
-#how_to_order {
+
+#how_to_order-container {
     display: flex;
-    flex-direction: column;
+    justify-content: center;
+    align-items: stretch;
 }
 
 .how_to_order_header {
@@ -22,7 +24,7 @@
     line-height: 14px;
     overflow-wrap: break-word;
     vertical-align: baseline;
-    margin: 0px;
+    margin-left: -5%;
     font-family: Open Sans, sans-serif;
 }
 .how_to_order_header_big {
@@ -34,13 +36,13 @@
     font-stretch: 100%;
     font-weight: 700;
     line-height: 47.5px;
+    margin-left: -5%;
 }
 .how_to_order_header_line {
     color: #eb6d2f;
     height: 2px;
     width: 65px;
-    margin-right: center;
-    margin-left: 48%;
+    margin-left: 45%;
     background-color: #eb6d2f;
 }
 .how_to_order_header_content {
@@ -48,29 +50,44 @@
     color: #413939;
     width: 90%;
     padding: 20px;
-    font-size: 18px;
     font-stretch: 100%;
     font-weight: 200;
     line-height: 28.8px;
     overflow-wrap: break-word;
     vertical-align: baseline;
+    margin: 0px;
+}
+.how_to_order__card {
+    display: flex;
+    width: 75%;
+    flex-direction: column;
 }
 .how_to_order-show__name {
-    display: flex;
     color: #5a3733;
     text-align: center;
+    font-size: 30px;
+    width: 100%;
 }
 .how_to_order-show__description{
-    display: flex;
     color: #5a3733;
     text-align: center;
+    font-size: 18px;
+    display: block;
 }
-
+.how_to_order__image {
+    width: 200px;
+}
+#button_wrapper {
+    display: flex;
+    width: 500px;
+    align-items: center;
+    justify-content: center;
+}
 .how_to_order-button {
     color: #ffffff;
     background-color: #eb6d2f;
     border-radius: 10px;
-    font-size: 15px;
+    font-size: 20px;
     font-stretch: 100%;
     font-weight: 500;
     height: 60px;
@@ -80,16 +97,11 @@
     align-items: center;
     display: block;
     font-family: Open Sans, sans-serif;
-    width: 20%;
+    width: 25%;
     margin-left: 38%;
     border: none;
     cursor: pointer;
 }
 .how_to_order-button:hover {
     background-color: #5a3733;
-}
-
-#button_how {
-    display: table-caption;
-    caption-side: top;
 }
