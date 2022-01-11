@@ -93,6 +93,7 @@
 .tab-content {
     display: flex;
     flex-direction: column;
+    position: relative;
 }
 
 @media screen and (min-width: 770px) {
@@ -106,9 +107,9 @@
     border-radius: 7px;
     display: flex;
     flex-direction: column;
+    position: relative;
     align-items: center;
     text-align: center;
-    position: relative;
     width: 95%;
     min-height: 350px;
     margin: 0 auto 25px;
@@ -144,4 +145,37 @@
     position: absolute;
     bottom: 30px;
     width: 120px;
+}
+
+/* Buttons  */
+
+.types-btn {
+    background-color: var(--orange);
+    border: none;
+    border-radius: 50%;
+    color: var(--background-color);
+    cursor: pointer;
+    text-align: center;
+    font-weight: 200;
+    opacity: .8;
+    position: absolute;
+    height: 23px;
+    width: 23px;
+    bottom: 50%;
+}
+
+.types-btn:hover {
+    background-color: var(--dark-orange);
+}
+
+.types-btn-forward {
+    left: -13px;
+}
+
+.types-btn-backward {
+    right: -13px;
+}
+
+.types__carousel-item {
+    display: none;
 }
