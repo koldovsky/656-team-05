@@ -10,7 +10,7 @@
             <p class="what_we_do_card-text">We produce, bottle, and sell honey harvested by our beekeepers.
             </p>
             <div class="what_we_do_anchor_container">
-                <a href="#about-us" class="what_we_do_anchor_text">Learn more</a>
+                <a href="#" class="what_we_do_anchor_text">Learn more</a>
             </div>
         </div>
     </article></div>`,
@@ -23,7 +23,7 @@
             <p class="what_we_do_card-text">We offer over 10 types of organic raw honey in our online store.
             </p>
             <div class="what_we_do_anchor_container">
-                <a href="#store" class="what_we_do_anchor_text">Learn more</a>
+                <a href="#" class="what_we_do_anchor_text">Learn more</a>
             </div>
         </div>
     </article></div>`,
@@ -35,7 +35,7 @@
             <h2 class="what_we_do_card-name">Supplements</h2>
             <p class="what_we_do_card-text">You can buy bee pollen, propolis, and hive mixtures. </p>
             <div class="what_we_do_anchor_container">
-                <a href="#contact" class="what_we_do_anchor_text">Learn more</a>
+                <a href="#" class="what_we_do_anchor_text">Learn more</a>
             </div>
         </div>
     </article></div>`,
@@ -47,7 +47,7 @@
             <h2 class="what_we_do_card-name">Beekeeping Classes</h2>
             <p class="what_we_do_card-text">Feel free to book excursions and workshops at our swaths.</p>
             <div class="what_we_do_anchor_container">
-                <a href="#contact" class="what_we_do_anchor_text">Learn more</a>
+                <a href="#" class="what_we_do_anchor_text">Learn more</a>
             </div>
         </div>
     </article></div>`
