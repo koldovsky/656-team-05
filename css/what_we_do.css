@@ -25,7 +25,17 @@
         min-width: 200px;
     }
 }
+
+@media screen and (min-width: 680px) {
+    .what_we_do-carousel-container {
+        max-width: 50%;
+        text-align: center;
+        margin: auto;
+    }
+}
+
 .what_we_do_section {
+    max-width: 1280px;
     width: 100%;
     background-image: url(../img/background-what-we-do-img.webp);
     background-position: center;
@@ -33,6 +43,7 @@
     min-height: 400px;
     padding-top: 40px;
     padding-bottom: 55px;
+    margin: 0 auto;
 }
 .what_we_do_header_inner_grid {
     display: grid;
