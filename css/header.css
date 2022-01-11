@@ -1,15 +1,27 @@
 /* Ivan */
 
-body.active {
+body.active-nav {
     overflow: hidden;
 }
 
+header.active-nav {
+    height: 100vh;
+    width: 100vw;
+}
+
 .header {
-    min-height: 100vh;
+    min-height: 80vh;
     min-width: 300px;
     background-image: url(../img/header-banner.jpeg);
     background-size: cover;
     background-position: 25% 50%;
+}
+
+@media screen and (min-width: 780px) {
+    .header {
+        min-height: 100vh;
+        background-position: 25% 50%;
+    }
 }
 
 .header__nav-container {
@@ -58,15 +70,15 @@ body.active {
     padding-right: 30px;
 }
 
-.header__hamburger.active .bar:nth-child(2) {
+.header__hamburger.active-nav .bar:nth-child(2) {
     opacity: 0;
 }
 
-.header__hamburger.active .bar:nth-child(1) {
+.header__hamburger.active-nav .bar:nth-child(1) {
     transform: translateY(8px) rotate(45deg);
 }
 
-.header__hamburger.active .bar:nth-child(3) {
+.header__hamburger.active-nav .bar:nth-child(3) {
     transform: translateY(-8px) rotate(-45deg);
 }
 
@@ -93,7 +105,7 @@ body.active {
         min-height: 100vh;
         text-align: center;
     }
-    .header__nav-menu.active {
+    .header__nav-menu.active-nav {
         display: flex;
         top: 0;
     }
@@ -199,6 +211,12 @@ body.active {
     margin-bottom: 15px;
 }
 
+@media (min-width: 900px) {
+    .header__banner span {
+        font-size: 16px;
+    }
+}
+
 .header__banner h1 {
     color: var(--brown);
     font-size: 54px;
@@ -211,26 +229,38 @@ body.active {
     }
 }
 
+@media (min-width: 900px) {
+    .header__banner h1 {
+        font-size: 84px;
+    }
+}
+
 .orange-line {
     background-color: var(--orange);
     height: 4px;
     width: 15%;
-    margin: 10px 0 15px;
+    margin: 10px 0 10px;
 }
 
 .header__banner p {
     color: var(--main-text-color);
     font-family: Open Sans, sans-serif;
-    font-size: 14px;
+    font-size: 18px;
     font-weight: 400;
-    width: 300px;
+    width: 80%;
     line-height: 30px;
     margin-top: 15px;
 }
 
-@media (min-width: 400px) {
+@media (min-width: 500px) {
     .header__banner p {
-        font-size: 16px;
+        width: 70%;
+    }
+}
+
+@media (min-width: 900px) {
+    .header__banner p {
+        font-size: 22px;
     }
 }
 
@@ -283,16 +313,6 @@ body.active {
     }
     .header__banner-container {
         margin-top: 130px;
-    }
-    .header__banner span {
-        font-size: 16px;
-    }
-    .header__banner h1 {
-        font-size: 84px;
-    }
-    .header__banner p {
-        font-size: 22px;
-        width: 500px;
     }
 }
 
