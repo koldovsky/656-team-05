@@ -18,7 +18,7 @@
 .clients_feedback_header_large {
     text-align: center;
     color: #ffffff;
-    font-size: 50px;
+    font-size: 38px;
     margin: auto;
     font-family: Open Sans, sans-serif;
 }
@@ -196,18 +196,4 @@
 }
 .active, .dot:hover {
     background-color: #ffffff;
-}
-
-.clients {
-    -webkit-animation-name: clients;
-    -webkit-animation-duration: 1.5s;
-}
-
-@-webkit-keyframes clients {
-    from{opacity: .4;}
-    to{opacity: 1;}
-}
-@keyframes clients {
-    from{opacity: .4;}
-    to{opacity: 1;}
 }
