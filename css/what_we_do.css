@@ -28,7 +28,6 @@
 
 @media screen and (min-width: 680px) {
     .what_we_do-carousel-container {
-        max-width: 50%;
         text-align: center;
         margin: auto;
     }
@@ -41,8 +40,7 @@
     background-position: center;
     background-size: cover;
     min-height: 400px;
-    padding-top: 40px;
-    padding-bottom: 55px;
+    padding-bottom: 50px;
     margin: 0 auto;
 }
 .what_we_do_header_inner_grid {
@@ -120,6 +118,7 @@
 }
 .what_we_do_content_inner {
     background-color: var(--white);
+    border-radius: 7px;
     padding-left: 25px;
     padding-right: 25px;
     padding-top: 31px;
