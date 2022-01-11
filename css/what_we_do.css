@@ -77,10 +77,11 @@
     line-height: 47.5px;
 }
 .what_we_do_header-text {
+    font-family: Open Sans, sans-serif;
     color: var(--main-text-color);
     font-size: 18px;
     font-stretch: 100%;
-    font-weight: 400;
+    font-weight: 300;
     line-height: 28.8px;
     text-align: center;
 }
@@ -121,7 +122,6 @@
     border-radius: 7px;
     padding-left: 25px;
     padding-right: 25px;
-    padding-top: 31px;
     padding-bottom: 31px;
     display: flex;
     flex-direction: column;
@@ -137,6 +137,8 @@
     justify-content: center;
     text-align: center;
     vertical-align: baseline;
+    margin-top: 45px;
+    margin-bottom: 20px;
 }
 .what_we_do_card-name {
     color: var(--brown);
@@ -149,15 +151,15 @@
     margin-top: 20px;
 }
 .what_we_do_card-text {
-    margin-top: auto;
     min-height: 65px;
-    color: var(--main-text-color);
+    font-family: Open Sans, sans-serif;
     font-size: 16px;
     font-stretch: 100%;
-    font-weight: 400;
+    font-weight: 300;
     line-height: 27.2px;
     text-align: center;
     vertical-align: baseline;
+    margin-top: 15px;
 }
 .what_we_do_anchor_container {
     margin-top: auto;

@@ -4,7 +4,7 @@
 }
 .what_we_do_carousel_slide {
     display: flex;
-    margin: 10px;
+    margin: 10px auto;
 }
 .what_we_do-carousel-container{
     display: flex;
@@ -34,6 +34,5 @@
 }
 .forward{
     margin-right: 10px;
-    margin-left: 20px;
 }
 
