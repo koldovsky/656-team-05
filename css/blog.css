@@ -89,7 +89,7 @@
 .blog__carousel-item {
     background-color: var(--white);
     border-radius: 5px;
-    display: flex;
+    display: none;
     flex-direction: column;
     justify-content: center;
     text-align: left;
@@ -140,7 +140,7 @@
 }
 
 .blog-btn:hover {
-    background-color: var(--dark-orange);
+    background-color: var(--light-orange);
 }
 
 .blog-btn-forward {
@@ -151,11 +151,30 @@
     right: -13px;
 }
 
-.blog__carousel-item {
-    display: none;
+.blog__carousel-nav {
+    width: 100%;
+    padding: 20px 0;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    text-align: center;
 }
 
-#blog__carousel-item1 {
+.blog__carousel-dot-button {
+    width: 10px;
+    height: 10px;
+    cursor: pointer;
+    display: inline-block;
+    background: var(--light-orange);
+    border-radius: 50px;
+    margin: 0 5px;
+}
+
+.blog__carousel-dot-button-selected {
+    background: var(--orange);
+}
+
+.blog__carousel-item-selected {
     display: flex;
 }
 
